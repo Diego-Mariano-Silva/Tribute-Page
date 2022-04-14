@@ -1,0 +1,77 @@
+/*The layout of this page is based in the reference web page that FreeCodeCamp gives*/
+:root{
+  --main-white: 	#F8F8F8;
+ 
+}
+
+*{ 
+  border-size: border-box;
+  
+}
+html{
+  margin: 0;
+  font-size: 1.2rem;
+  line-height: 1.2rem;
+  background-color:	#E0E0E0;
+  font-family: 'Montserrat', open sans;
+}
+#header{
+  text-align: center;
+    background-color: var(--main-white);
+  margin:  0rem 1rem;
+  border-radius: 20px;
+  color: #ff4d4d;
+  font-family: 'Ubuntu', sans serif;
+}
+#header h1{
+
+font-size: 2rem;
+margin-bottom: -15px;
+line-height: 3.5rem;
+    border-bottom: 2px solid red;
+
+}
+#header p{
+  padding-top: 4px;
+  padding-bottom: 4px;
+
+
+}
+#img-div{
+  margin: 0 1rem;
+  padding: 1rem 0;
+  border-radius: 20px;
+  background-color: var(--main-white);
+}
+img{
+  display: block;
+  margin: auto;
+  max-width: 25vw;
+  margin-bottom: -25px;
+}
+#img-caption{
+  text-align: center;
+  margin-bottom: -25px;
+  color: #ff4d4d;
+  font-weight: 600;
+  
+}
+#tribute-info{
+  margin: 0.5rem 1rem;
+  text-align: justify;
+  background-color: var(--main-white);
+  padding: 20px;
+  border-radius: 20px;
+}
+#footer{
+  text-align: center;
+  font-size: 0.8rem;
+    background-color: var(--main-white);
+  padding: 1px;
+  border-radius: 20px;
+  margin: 0 1rem; 
+}
+a {
+  color: #ff4d4d;
+    font-weight: 600;
+}
